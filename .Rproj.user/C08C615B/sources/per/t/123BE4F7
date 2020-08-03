@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594227971342.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2099189819",
+    "id" : "123BE4F7",
+    "lastKnownWriteTime" : 1594339771,
+    "last_content_update" : 1594339771371,
+    "path" : "~/Dropbox/Desktop/Rcode/QSCI381/R/data.r",
+    "project_path" : "R/data.r",
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "scrollLine" : "8"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

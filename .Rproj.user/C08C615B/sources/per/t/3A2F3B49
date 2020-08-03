@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594340337225.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2415320010",
+    "id" : "3A2F3B49",
+    "lastKnownWriteTime" : 1594341012,
+    "last_content_update" : 1594341012755,
+    "path" : "~/Dropbox/Desktop/Rcode/QSCI381/R/QSCI381-package.R",
+    "project_path" : "R/QSCI381-package.R",
+    "properties" : {
+        "cursorPosition" : "1,84",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

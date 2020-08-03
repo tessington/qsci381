@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594482025034.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1689907260",
+    "id" : "E48ED2A4",
+    "lastKnownWriteTime" : 1594338869,
+    "last_content_update" : 1594338869,
+    "path" : "~/Dropbox/Desktop/Rcode/QSCI381/man/WAtree.Rd",
+    "project_path" : "man/WAtree.Rd",
+    "properties" : {
+    },
+    "read_only" : true,
+    "read_only_alternatives" : [
+        "R/data.r"
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
