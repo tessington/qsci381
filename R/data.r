@@ -59,3 +59,47 @@
 #'
 #'
 "tuition_cost"
+
+#' NusaPenida: a data file of GPS (geographical information system) bird locations
+#' @format a dataframe containing GPS location ouputs of an invasive bird species tagged on the island of Nusa Penida, Indonesia.
+#' \describe{
+#'  \item{Year}{Year of observation}
+#'  \item{Day}{Julian day}
+#'  \item{Hour}{Hour in 24-Hour notation}
+#'  \item{Minutes}{Minutes after the hour}
+#'  \item{AirTemp}{Air Temperature (degrees celsius)}
+#'  \item{Latitude}{Latitude, in degrees S}
+#'  \item{Longitude}{Longitude in degrees E}
+#'  \item{HDOP}{Horizontal Dilution of Precision, which is an indicator of the accuracy for each recording (higher values indicate lower accuracy)}
+#' }
+#' @source Abrantes, A.A. 2018. 'Avifaunal Biodiversity and Land Use on Indonesia's Palau Penida Archipelago'. MS Thesis. State University of New York at Fredonia. Fredonia, NY
+#'
+#'
+"NusaPenida"
+
+#' bees: a data file bee activity by gendeer
+#' @format a dataframe containing experimental results exploring how temperature affects activity in male and female bees. Each row is a result from a single bee
+#' \describe{
+#'  \item{Temp}{Temperature (degrees celsius)}
+#'  \item{Active}{A categorial factor  Yes / No}
+#'  \item{Gender}{Bee gender}
+#' }
+#' @source unknown
+#'
+#'
+"bees"
+
+#' childPoverty: A data file on Washington State child poverty rates
+#' @format a dataframe containing number of children in poverty, by city and by race.  Data are five year averages ending in 2018
+#' \describe{
+#'  \item{city_name}{Name of city / town}
+#'  \item{group_name}{Racial group}
+#'  \item{number}{total number of children in poverty}
+#'  \item{total_population}{total population size for each race in each city}
+#'  \item{percent}{Percentage of residents of each city and racial group experiencing childhood poverty}
+#' }
+#' @source https://www.cityhealthdashboard.com/data-access
+#'
+#'
+#'
+"childPoverty"
