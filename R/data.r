@@ -103,3 +103,21 @@
 #'
 #'
 "childPoverty"
+
+#' policeShootings: A data file on police shootings by county
+#' @format a dataframe containing county-level information on population size of Blacks, Hispanics, and Whites, and the number of officer-involved shootings for each group.  Data span 2011–2014.
+#' \describe{
+#'  \item{State}{Two letter state abbreviation}
+#'  \item{CountyName}{name of county}
+#'  \item{BlackPop}{Black population size in county}
+#'  \item{BlackShooting}{Number of black individuals shot by police by county}
+#'  \item{WhitePop}{White population size in county}
+#'  \item{WhiteShooting}{Number of white individuals shot by police by county}
+#'  \item{HispanicPop}{Hispanic population size in county}
+#'  \item{HispanicShooting}{Number of hispanic individuals shot by police by county}
+#' }
+#' @source Ross, Cody T. 2015. ”A Multi-Level Bayesian Analysis of Racial Bias in Police Shootings at the County-Level in the United States, 2011–2014.” PLoS ONE 10: 11: e0141854. doi: 10.1371/journal.pone.0141854
+
+#'
+#'
+"policeShootings"
