@@ -77,7 +77,7 @@
 #'
 "NusaPenida"
 
-#' bees: a data file bee activity by gendeer
+#' bees: a data file bee activity by gender
 #' @format a dataframe containing experimental results exploring how temperature affects activity in male and female bees. Each row is a result from a single bee
 #' \describe{
 #'  \item{Temp}{Temperature (degrees celsius)}
