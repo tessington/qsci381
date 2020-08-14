@@ -134,3 +134,40 @@
 #'
 #'
 "LifeSpan"
+
+#' bloodpressure: A data file on systolic blood pressure with diet change
+#' @format a dataframe containing individual systolic blood pressure measurements before and after changing to a vegatarian diet.
+#' \describe{
+#'  \item{Subject}{Numeric code for each individual in the study}
+#'  \item{Before}{Measured systolic blood pressure prior to diet change"}
+#'  \item{After}{Meausred systolic blood pressure after diet change}
+#' }
+#' @source Rosner 1995. Fundamentals of Biostatistics. Duxbury Press. 4th Edition
+#'
+#'
+"bloodpressure"
+
+#' lead: A data file on lead levels and neurological effects in children
+#' @format a dataframe containing measurements of lead levels in children in the vicinity of a smelting plant, and various measures of neurological outcomes.
+#' \describe{
+#'  \item{ID}{unique numeric identify for each child}
+#'  \item{area}{area where the child lived: near (< 1 mile), intermediate (between 1 and 2.5 miles), and far (greater than 2.5 miles) from the smelter)
+#'  \item{sex}{male or female}
+#'  \item{age}{age in months}
+#'  \item{blood_lead}{lead levels in blood, micrograms per 100 ml}
+#'  \item{verbal_iq}{score on a verbal IQ test}
+#'  \item{performance_iq}{score on performance IQ test, evaluates individual's visuospatial intellectual abilities}
+#'  \item{full_iq}{overall IQ score (not a sum of the verbal and performance)}
+#'  \item{pica}{Parent reporting of incidents of Pica, an eating disorder in which people eat non-food items}
+#'  \item{colic}{Parent reporting of whether child experienced colic (frequent, prolonged and intense crying in an infant)}
+#'  \item{clumsiness}{Parent reporting of whether child is clumsy}
+#'  \item{iritability}{Parent reporting of whether child is irritable}
+#'  \item{convulsions}{Parent reporting of whether child suffered convulsions}
+#'  \item{taps_right}{number of finger taps per 10 seconds with right hand}
+#'  \item{clumsiness}{number of finger taps per 10 seconds with left hand}
+#'
+#' }
+#' @source Landrigan  et al. (1975) "Neuropsychological dysfunction in children with chronic low-level lead absorption".  The Lancet,  March 29, pp. 708--712
+#'
+#'
+"lead"
