@@ -133,7 +133,7 @@
 #' @format a dataframe containing measurements of lead levels in children in the vicinity of a smelting plant, and various measures of neurological outcomes.
 #' \describe{
 #'  \item{ID}{unique numeric identify for each child}
-#'  \item{area}{area where the child lived: near (< 1 mile), intermediate (between 1 and 2.5 miles), and far (greater than 2.5 miles) from the smelter)
+#'  \item{area}{area where the child lived: near (< 1 mile), intermediate (between 1 and 2.5 miles), and far (greater than 2.5 miles) from the smelter}
 #'  \item{sex}{male or female}
 #'  \item{age}{age in months}
 #'  \item{blood_lead}{lead levels in blood, micrograms per 100 ml}
@@ -147,7 +147,6 @@
 #'  \item{convulsions}{Parent reporting of whether child suffered convulsions}
 #'  \item{taps_right}{number of finger taps per 10 seconds with right hand}
 #'  \item{clumsiness}{number of finger taps per 10 seconds with left hand}
-#'
 #' }
 #' @source Landrigan  et al. (1975) "Neuropsychological dysfunction in children with chronic low-level lead absorption".  The Lancet,  March 29, pp. 708--712
 #'
