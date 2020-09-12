@@ -152,3 +152,19 @@
 #'
 #'
 "lead"
+
+#' Seattle Weather: A data file on temperature and precipitation in Seattle, WA, 1948 - 2017
+#' @format A data file on daily maximum temperature and precipitation in Seattle, WA, 1948 - 2017 by month, day, and year.
+#' \describe{
+#'  \item{DATE}{Full Date}
+#'  \item{PRCP}{amount of daily rain (inches)}
+#'  \item{TMAX}{Daily Maximum Temperature (degrees F)}
+#'  \item{RAIN}{Logical (TRUE / FALSE) indicating if it rained}
+#'  \item{DAY} {Day of the month}
+#'  \item{MONTH}{Three character month abbreviation}
+#'  \item{YEAR}{Calendar Year}
+#'  }
+#' @source National Weather Service. https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00024233/detail
+#'
+#'
+"seattle_weather"
