@@ -11,7 +11,7 @@ A data file on daily maximum temperature and precipitation in Seattle, WA, 1948 
  \item{PRCP}{amount of daily rain (inches)}
  \item{TMAX}{Daily Maximum Temperature (degrees F)}
  \item{RAIN}{Logical (TRUE / FALSE) indicating if it rained}
- \item{DAY} {Day of the month}
+ \item{DAY}{Day of the month}
  \item{MONTH}{Three character month abbreviation}
  \item{YEAR}{Calendar Year}
  }
