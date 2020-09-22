@@ -4,7 +4,7 @@ Title: Data used in QSCI 381, University of Washington
 Version: 1.0.0
 Author: Various QSCI Instructors
 Maintainer: Tim Essington <essing@uw.edu>
-Description: This package uploads data sets used by QSCI instructors.  Some instructors will also teach you how to import data directly into R.
+Description: This package uploads data sets used by QSCI instructors.  Data come from many sources, including the packages "openintro", "Stat2Data", and "moderndive"
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
