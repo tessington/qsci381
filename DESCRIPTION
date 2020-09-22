@@ -14,4 +14,5 @@ Depends:
     openintro,
     Stat2Data,
     moderndive,
-    Sleuth2
+    Sleuth2,
+    dplyr
