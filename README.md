@@ -4,14 +4,14 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of QSCI381 is to ...
 
 ## Installation
 
 You can install the released version of QSCI381 from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("QSCI381")
+library(devtools)
+install_github("tessington/qsci381")
 ```
 
 ## Example
