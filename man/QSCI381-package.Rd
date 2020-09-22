@@ -6,7 +6,7 @@
 \alias{QSCI381-package}
 \title{QSCI381: Data used in QSCI 381, University of Washington}
 \description{
-This package uploads data sets used by QSCI instructors.  Some instructors will also teach you how to import data directly into R.  Data in this package came from a variety of sources, including the R packages "openintro", "Stat2Data", and "moderndive"
+This package uploads data sets used by QSCI instructors.  Some instructors will also teach you how to import data directly into R.
 }
 \details{
 Contains datafiles that you will use in QSCI 381 at the University of Washington.
