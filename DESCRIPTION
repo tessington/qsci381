@@ -10,9 +10,5 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Depends: 
-    R (>= 3.5),
-    openintro,
-    Stat2Data,
-    moderndive,
-    Sleuth2,
-    dplyr
+    R (>= 2.1),
+    Stat2Data
