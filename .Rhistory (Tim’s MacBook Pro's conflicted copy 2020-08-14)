@@ -1,0 +1,343 @@
+WAtree <- read.csv(file = "data/WAtree.csv, header = T)
+WAtree <- read.csv(file = "data/WAtree.csv", header = T)
+save(file = "WAtree.rda", object = WAtree)
+save(file = "data/WAtree.rda", object = WAtree)
+require(roxygen2)
+library(QSCI381)
+require(QSCI381)
+index(QSCI381)
+help(QSCI381)
+library(QSCI381)
+??QSCI381
+help(WAtree)
+??WAtree
+QSCI381::WAtree
+summary(WAtree)
+require(roxygen2)
+help(roxygen2)
+help(hello)
+getwd()
+require(devtools)
+require(roxygen2)
+require(devtools)
+require(QSCI381)
+help(QSCI381)
+help("QSCI381")
+require(QSCI381)
+install.packages("QSCI381")
+install.packages("QSCI381")
+require(QSCI381)
+help(QSCI381)
+help("QSCI381")
+library(QSCI381)
+library(QSCI381)
+help("QSCI381")
+help(QSCI381)
+summary(WAtree)
+summarize(WAtree)
+help(summary)
+summary(WAtree)
+WAtree
+View(WAtree)
+load("~/Dropbox/Desktop/Rcode/QSCI381/data/WAtree.Rdata")
+summary(WAtree)
+library(QSCI381)
+summary(WAtree)
+PMdata <- read.csv("~/Downloads/PMdata.csv")
+View(PMdata)
+save("data/PMdata.Rdata", PMdata)
+save("data/PMdata.Rdata", object = PMdata)
+PMdata
+save(file = "data/PMdata.Rdata", object = PMdata)
+NBP <- read.csv("~/Downloads/NBP.csv")
+View(NBP)
+save(file = "data/NBP.Rdata", object = NBP)
+carsMPG
+cars
+CarsMPG <- read.csv("~/Downloads/CarsMPG.csv")
+View(CarsMPG)
+save(file = "data/carsMPG.Rdata", object = carsMPG)
+save(file = "data/carsMPG.Rdata", object = CarsMPG)
+library(QSCI381)
+help(QSCI381)
+help("QSCI381")
+rm(list = ls())
+library(QSCI381)
+CarsMPG
+data(CarsMPG)
+WAtree
+library(QSCI381)
+CarsMPG
+head(CarsMPG)
+QSCI381::CarsMPG
+library(QSCI381)
+data(CarsMPG)
+library(QSCI381)
+help(data)
+data("CarsMPG")
+use_data(CarsMPG)
+require(devtools)
+use_data(CarsMPG)
+data("CarsMPG", package = "QSCI381")
+require(QSCI381)
+data(CarsMPG, package = "QSCI381")
+data("CarsMPG", package = "QSCI381")
+data("carsMPG", package = "QSCI381")
+data(carsMPG, package = "QSCI381")
+library(QSCI381
+)
+library(pelagichypoxia)
+pelagichypoxia::euphausiid_lengths
+library(QSCI381)
+library(QSCI381)
+library(QSCI381)
+QSCI381::hello
+library(QSCI381)
+library(QSCI381)
+QSCI381::WAtree
+library(QSCI381)
+require(devtools)
+library(QSCI381)
+library(QSCI381)
+require(devtools)
+require(roxygen2)
+devtools::load_all(".")
+require(roxygen2)
+require(devtools)
+library(QSCI381)
+library(QSCI381)
+WAtree
+help(do)
+??do
+library(QSCI381)
+QSCI381::hello()
+load("data\WAtree.Rdata"_
+load("data\WAtree.Rdata")
+load("data/WAtree.Rdata")
+WAtree
+library(QSCI381)
+QSCI381::WAtree
+require(devtools)
+use_data(WAtree)
+library(QSCI381)
+QSCI381::WAtree
+WAtree
+load("/data/CarsMPG.Rdata")
+load("data/CarsMPG.Rdata")
+load("data/NBP.Rdata")
+load("data/PMdata.Rdata")
+use_data(CarsMPG, NBP, PMdata, WAtree)
+use_data(CarsMPG, NBP, PMdata)
+library(QSCI381)
+View(PMdata)
+help(QSCI381)
+??QSCI381??
+??QSCI381
+help(roxygen2)
+require(roxygen2)
+help(roxygen2)
+vignette("rd", package="roxygen2")
+require(usethis)
+usethis::use_package_doc()
+help(usethis)
+use_mit_license("Tim Essington")
+use_readme_md()
+use_readme_md()
+library(QSCI381)
+help(QSCI381)
+rm(list = ls())
+library(QSCI381)
+WAtree
+library(QSCI381)
+QSCI381::CarsMPG
+load("data/tuition_cost.Rdata")
+require(devtools)
+use_data(tuition_cost)
+help(roxygen2)
+require(roxygen2)
+require(devtools)
+load("data/tuition_cost.Rdata")
+use_data(tuition_cost)
+use_data(tuition_cost, overwrite = TRUE)
+library(QSCI381)
+help(QSCI381)
+head(tuition_cost)
+library(QSCI381)
+help(QSCI381)
+library(QSCI381)
+help(QSCI381)
+PalauBird <- read.csv("~/Downloads/Lab1_Data1.csv")
+View(PalauBird)
+use(devtools)
+library(devtools)
+save("data/PaluaBird.Rdata", PalauBird)
+save(file = "data/PaluaBird.Rdata", PalauBird)
+use_data(PaluaBird)
+PaluaBird
+PalauBird
+use_data(PalauBird)
+PalauBird$Year <- rep(2014, times = nrow(PalauBird))
+save(file = "data/PaluaBird.Rdata", PalauBird)
+use_data(PalauBird)
+use_data(PalauBird, overwrite = TRUE)
+require(dplyr)
+PalauBird <- PalauBird %>%
+select(Year, Day, hour, Minutes, AirTemp, Latitude, Longitude, Altitude, HDOP)
+select(Year, Day, Hour, Minutes, AirTemp, Latitude, Longitude, Altitude, HDOP)
+PalauBird <- PalauBird %>%
+select(Year, Day, Hour, Minutes, AirTemp, Latitude, Longitude, Altitude, HDOP)
+save(file = "data/PaluaBird.Rdata", PalauBird)
+use_data(PalauBird, overwrite = TRUE)
+NusaPenida <- PalauBird
+save(file = "data/NusaPenida.Rdata", NusaPenida)
+use_data(NusaPenida, overwrite = TRUE)
+library(QSCI381)
+help(QSCI381)
+library(QSCI381)
+help(QSCI381)
+library(QSCI381)
+rm(PalauBird)
+rm(NusaPenida)
+library(QSCI381)
+NusaPenida
+help(NusaPenida)
+bees <- read.csv("~/Downloads/beedata.csv")
+View(bees)
+save("data/bees.Rdata", bees)
+save(file ="data/bees.Rdata", bees)
+library(devtools)
+usedata(bees)
+use_data(bees)
+library(QSCI381)
+help(bees)
+SeattleRain <- read.csv("~/Downloads/seattleWeather_1948-2017.csv")
+View(SeattleRain)
+save(file = "data/SeattleRain", SeattleRain)
+require(devtools)
+use_data(bees)
+use_data(bees, TRUE)
+library(QSCI381)
+help(bees)
+CHDB_data <- read.csv("~/Downloads/All CHDB Cities v9.0 - released May 11, 2020_0/CHDB_data_city_all v9_0.csv")
+View(CHDB_data)
+levels(CHDB_data$metric_name)
+require(dplyr)
+seattleParkAccess <- CHDB_data %>%
+filter(city_name == "Seattle", metric_name == `Park Access`)
+seattleParkAccess <- CHDB_data %>%
+seattleParkAccess <- CHDB_data %>%
+filter(city_name == "Seattle", metric_name == "Park Access")
+library(dplyr)
+seattleParkAccess <- CHDB_data %>%
+filter(city_name == "Seattle", metric_name == "Park Access")
+head(seattleParkAccess)
+View(seattleParkAccess)
+seattlePoverty <- CHDB_data %>%
+filter(city_name == "Seattle", metric_name == "Children in Poverty")
+View(seattlePoverty)
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", num >-1)
+View(childPoverty)
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", num >-1, group_name !="total population")
+view(childPoverty)
+View(childPoverty)
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", state_abbr = "WA", num >-1, group_name !="total population")
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", state_abbr == "WA", num >-1, group_name !="total population")
+View(childPoverty)
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", state_abbr == "WA", num >-1, group_name !="total population") %>%
+select(city_name, group_name, num, denom, est)
+help(rename)
+childPoverty <- CHDB_data %>%
+filter(metric_name == "Children in Poverty", state_abbr == "WA", num >-1, group_name !="total population") %>%
+select(city_name, group_name, num, denom, est) %>%
+rename(number = num, total_population = denom, percent = est)
+View(rename)
+View(childPoverty)
+save(file = "data/childPoverty.Rdata", childPoverty)
+use_data(childPoverty)
+library(QSCI381)
+help(childPoverty)
+git add --all
+help(QSCI381)
+################################## Load Data ###################################
+d<-read.csv(file.choose()) # MapFileData-WithCountyResultsAndCovariates.csv
+install.packages('rethinking')
+############### The following line of code just limits the data set to counties
+# in which we have data on police shooting.
+d<-d[which(complete.cases(d$BlackArmed)),]
+############### Extract population size data for each county
+Nblack<-d$BAC_TOT
+Nwhite<-d$WA_TOT
+Nhispanic<-d$H_TOT
+############### Extract shooting data for each county
+UnarmedBlack<-d$BlackUnarmed
+ArmedBlack<-d$BlackArmed
+UnarmedHispanic<-d$HispanicUnarmed
+ArmedHispanic<-d$HispanicArmed
+UnarmedWhite<-d$WhiteUnarmed
+ArmedWhite<-d$WhiteArmed
+N<-length(Nblack)
+UnarmedBlack
+Nblack
+d
+View(d)
+policeShootings <- d %>%
+select(State, CountyName,BAC_TOT, WA_TOT, H_TOT, BlackUnarmed, WhiteUnarmed, HispanicUnarmed, BlackArmed, WhiteArmed, HispanicArmed) %>%
+rename(BlackPop=BAC_TOT, WhitePop = WA_TOT, HispanicPop = H_TOT) %>%
+mutate(BlackShooting = BlackUnarmed + BlackUnarmed, WhiteShooting = WhiteArmed+WhiteUnarmed, HispanicShooting = HispanicUnarmed+HispanicUnarmed)
+policeShootings <- d %>%
+rename(BlackPop=BAC_TOT, WhitePop = WA_TOT, HispanicPop = H_TOT) %>%
+mutate(BlackShooting = BlackUnarmed + BlackUnarmed, WhiteShooting = WhiteArmed+WhiteUnarmed, HispanicShooting = HispanicUnarmed+HispanicUnarmed) %>%
+select(State, CountyName,BlackPop, BlackShooting, WhitePop, WhiteShooting, HispanicPop, HispanicShooting)
+save(file = "data/policeShootings.Rdata", policeShootings)
+use_data(policeShootings)
+library(QSCI381)
+help(policeShootings)
+CHDBdata <- read.csv("~/Downloads/All CHDB Cities v9.0 - released May 11, 2020_0/CHDB_data_city_all v9_0.csv")
+View(CHDBdata)
+levels(CHDBdata$metric_name)
+source('~/.active-rstudio-document', echo=TRUE)
+source('~/.active-rstudio-document', echo=TRUE)
+source('~/.active-rstudio-document', echo=TRUE)
+source('~/.active-rstudio-document', echo=TRUE)
+help(rename)
+source('~/.active-rstudio-document', echo=TRUE)
+View(LifeSpan)
+source('~/.active-rstudio-document', echo=TRUE)
+View(LifeSpan)
+totalpop <- Life Span %>% filter(group_name == "total population")
+totalpop <- LifeSpan %>% filter(group_name == "total population")
+anova(life_expectancy~ state_abbr)
+help(anova)
+lm <- (life_expectancy ~ state_abbr)
+mod <- lm(life_expectancy ~ state_abbr, data = LifeSpan)
+anova(mod)
+mod <- lm(life_expectancy ~ state_abbr, data = totalpop)
+summary(mod)
+save(file = "LifeSpan.Rdata", LifeSpan)
+require(devtools)
+use_data(LifeSpan)
+rename(state  = state_abbr)
+rename(state  = state_abbr, data = totalpop)
+totalpop <- totalpop %>% rename(state = state_abbr)
+save(file = "LifeSpan.Rdata", LifeSpan)
+use_data(LifeSpan,overwrite = TRUE)
+totalpop$group_name
+relevel(totalpop$group_name)
+totalpop <- totalpop %>% select(state, city_name, life_expectancy, data_yr_type)
+CHDBdata$Suggested.Citation
+levels(CHDBdata$Suggested.Citation)
+save(file = "LifeSpan.Rdata", LifeSpan)
+use_data(LifeSpan,overwrite = TRUE)
+library(QSCI381)
+help(QSCI381)
+bloodpressure <- read.csv("~/Dropbox/Desktop/bloodpressure.csv")
+View(bloodpressure)
+save(file = "data/bloodpressure.Rdata", bloodpressure)
+library(devtools)
+use_data(bloodpressure)
+require(roxygen2)

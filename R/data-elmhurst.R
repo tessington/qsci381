@@ -1,0 +1,32 @@
+#' Elmhurst College gift aid
+#'
+#' A random sample of 50 students gift aid for students at Elmhurst College.
+#'
+#'
+#' @name elmhurst
+#' @docType data
+#' @format A data frame with 50 observations on the following 3 variables.
+#' \describe{
+#'   \item{family_income}{Family income of the student.}
+#'   \item{gift_aid}{Gift aid, in $1000s.}
+#'   \item{price_paid}{Price paid by the student (tuition - gift aid).}
+#'   }
+#' @source These data were sampled from a table of data for all freshman from
+#' the 2011 class at Elmhurst College that accompanied an article titled What
+#' Students Really Pay to Go to College published online by The Chronicle of
+#' Higher Education:
+#' \url{http://chronicle.com/article/What-Students-Really-Pay-to-Go/131435}.
+#' @keywords datasets
+#' @examples
+#'
+#' library(ggplot2)
+#' library(broom)
+#'
+#' ggplot(elmhurst, aes(x = family_income, y = gift_aid)) +
+#'   geom_point() +
+#'   geom_smooth(method = "lm")
+#'
+#' mod <- lm(gift_aid ~ family_income, data = elmhurst)
+#' tidy(mod)
+#'
+"elmhurst"
