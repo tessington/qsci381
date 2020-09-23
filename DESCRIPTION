@@ -17,6 +17,10 @@ Depends:
     openintro,
     Stat2Data,
     moderndive,
+<<<<<<< HEAD
     Sleuth2,
 >>>>>>> parent of b7de61d... reduced dependencies for testing on jupyterhub
     dplyr
+=======
+    Sleuth2
+>>>>>>> parent of db62637... added dplyr as dependency
