@@ -9,18 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Depends: 
-<<<<<<< HEAD
-    R (>= 2.10),
-=======
-    R (>= 3.5),
-    openintro,
-    Stat2Data,
-    moderndive,
-<<<<<<< HEAD
-    Sleuth2,
->>>>>>> parent of b7de61d... reduced dependencies for testing on jupyterhub
-    dplyr
-=======
-    Sleuth2
->>>>>>> parent of db62637... added dplyr as dependency
+Depends:
+    R (>= 2.10)
